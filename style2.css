@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('img_projets/Capture\ d’écran\ 2026-04-07\ 010447.png');
+    background-size: cover;
+}
+
+img{
+    height: 53px;
+    border-radius: 64px;
+    margin: 5px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    margin-right: 40px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.arrow-icon {
+  fill: white; /* couleur de la flèche */
+  transition: transform 0.3s ease;
+}
+
+a:hover .arrow-icon {
+  transform: rotate(180deg); /* flèche qui pivote quand le menu est ouvert */
+}
+
+.right {
+    color: #fff;
+    display: flex;
+    margin-right: 30px;
+    gap: 25px;
+}
+
+.right button{
+    margin-top: 11px;
+    height: 33px;
+}   
+
+button {
+    background-color: #fff;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+.container {
+    padding: 34px;
+    display: block;
+    color: #fff;
+    width: 31%;
+    margin-top: 160px;
+}
+
+h1 {
+    font-size: 52px;
+}
+
+.container a{
+     font-size: 15px;
+     word-spacing: 12px;
+}
+
+p {
+    font-size: 21px;
+}

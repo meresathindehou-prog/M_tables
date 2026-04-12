@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.logo {
+    display: inline-block;
+    position: relative;
+    left: 330px;
+    font-size: 25px;
+}
+
+nav {
+    position: absolute;
+    top: 29px;
+    right: 265px;
+    font-size: 12px;
+
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.arrow-icon {
+    fill: white;
+    /* couleur de la flèche */
+    transition: transform 0.3s ease;
+}
+
+a:hover .arrow-icon {
+    transform: rotate(180deg);
+    /* flèche qui pivote quand le menu est ouvert */
+}
+
+li a {
+    text-decoration: none;
+    color: ;
+    margin-left: 33px;
+}
+
+.text {
+    line-height: 0.001;
+}
+
+.text p {
+    display: inline-block;
+    color: ;
+}
+
+button {
+    background-color: orange;
+    color:#fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+}
